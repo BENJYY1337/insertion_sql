@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <form action="./controller.insertion.php" method="POST">
+        <fieldset>
+            <legend>Formulaire</legend>
+            <div>
+                <label for="nameinput">Votre nom</label>
+                <input type="text" name="lastname" id="nameinput">
+            </div>
+            <div>
+                <label for="nameinput">Votre prénom</label>
+                <input type="text" name="firstname" id="nameinput">
+            </div>
+            <div>
+                <label for="passwordinput">Votre mot de passe</label>
+                <input type="password" name="password" id="passwordinput" minlength="8">
+            </div>
+            <div>
+                <label><input type="checkbox" name="cgu" required checked>J'accepte les conditions d'utilisations</label>
+            </div>
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Annuler">
+        </fieldset>
+    </form>
+</body>
+</html>
