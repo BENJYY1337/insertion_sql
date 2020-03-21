@@ -6,7 +6,7 @@
             $password=$_POST['password'];
             //On construit la date d'aujourd'hui
             //strictement comme sql la construit
-            $today = date("y-m-d");
+            //$today = date("y-m-d");
             //On se connecte
             $DB_NAME = "insertion_sql";
             $DB_DSN = "mysql:host=127.0.0.1:3308;dbname=".$DB_NAME;
